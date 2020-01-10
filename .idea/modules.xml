@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../12306/.idea/12306.iml" filepath="$PROJECT_DIR$/../12306/.idea/12306.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../12306-new/.idea/12306-new.iml" filepath="$PROJECT_DIR$/../12306-new/.idea/12306-new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/autopython.iml" filepath="$PROJECT_DIR$/.idea/autopython.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/untitled/.idea/untitled.iml" filepath="$USER_HOME$/PycharmProjects/untitled/.idea/untitled.iml" />
+    </modules>
+  </component>
+</project>
