@@ -1,0 +1,278 @@
+# coding: utf-8
+from selenium.webdriver.support.select import Select
+from selenium import webdriver
+from publicMothon import *
+from selenium.webdriver.common.keys import Keys
+package_namesaler = 'winretailsaler.net.winchannel.wincrm'
+package_namesr = 'winretailsr.net.winchannel.wincrm'
+class charge():
+    link = public_month()
+    def __init__(self):
+        self.dr = webdriver.Firefox()
+        self.d = atx.connect()
+    def enroll(self, zhucesong,phone,name,salername,dizhi,menpai,jianzhu,yaoqingma):
+        self.dr.implicitly_wait(10)
+        self.dr.get("http://retail.wincrm.net:8203/")
+        self.dr.find_element_by_css_selector("#userAccount").send_keys("zhangkesaler")  # 输入账号
+        self.dr.find_element_by_css_selector(".login_pwd").send_keys("11111111")  # 输入密码
+        self.dr.implicitly_wait(5)  # 等待时间
+        self.dr.find_element_by_css_selector(".login_on").click()  # 登陆按钮
+        time.sleep(3)
+        self.dr.find_element_by_css_selector("#menuId_hxdplatform").click()
+        self.dr.switch_to.frame("menu1")
+        time.sleep(2)
+        self.dr.maximize_window()
+        self.dr.find_element_by_css_selector("div.promptHeader>a").click()
+        time.sleep(2)
+        for i in range(1, 5):
+            self.dr.find_element_by_xpath(".//*[@id='menuScrollAuto']").send_keys(Keys.DOWN)
+        self.dr.find_element_by_link_text("促销管理").click()
+        self.dr.find_element_by_css_selector("#a_menuId_yhqmbgl").click()
+        time.sleep(2)
+        self.dr.switch_to.default_content()
+        self.dr.switch_to.frame("main1")
+        self.dr.find_element_by_css_selector("div.MenuList>a:nth-child(3)").click()
+        time.sleep(2)
+        self.dr.find_element_by_xpath(".//*[@id='titleId']").send_keys(zhucesong)
+        time.sleep(2)
+        # 仅限移动支付
+        sel = self.dr.find_element_by_xpath(".//*[@id='SollAuto']/div/table/tbody/tr[3]/td[2]/select")
+        Select(sel).select_by_value('2')
+        time.sleep(1)
+        # 订单
+        sel = self.dr.find_element_by_id("couponConditionType")
+        Select(sel).select_by_value('1')
+        self.dr.find_element_by_xpath(".//*[@id='couponLabel']").send_keys(u"注册送勿")
+        self.dr.find_element_by_css_selector("#memoId").send_keys(u"我的我的哈哈")
+        for i in range(1, 6):
+            self.dr.find_element_by_css_selector("div.sheet_div").send_keys(Keys.DOWN)
+        self.dr.find_element_by_css_selector("#priceId").send_keys(u"150")
+        self.dr.find_element_by_css_selector("#scoreId").send_keys(u"1")
+        time.sleep(1)
+        self.dr.find_element_by_xpath(".//*[@id='s2id_brandCode']/a/span[2]/b").click()
+        time.sleep(1)
+        self.dr.find_element_by_css_selector("input#s2id_autogen2_search").send_keys(u"脉动")
+        time.sleep(1)
+        self.dr.find_element_by_css_selector("span.select2-match").click()
+        self.dr.find_element_by_css_selector("#doModifyId").click()
+        time.sleep(1)
+        self.dr.switch_to.alert.accept()
+        time.sleep(2)
+        self.dr.find_element_by_xpath(".//*[@id='ec_table']/tbody/tr[1]/td[3]/center/a[2]").click()
+        current_window = self.dr.current_window_handle  # 获取当前窗口handle name
+        all_windows = self.dr.window_handles  # 获取所有窗口handle name
+        for window in all_windows:
+            if window != current_window:
+                self.dr.switch_to.window(window)
+        time.sleep(2)
+        self.dr.switch_to.default_content()
+        self.dr.switch_to.frame("_DialogFrame_0")
+        self.dr.find_element_by_css_selector("input#cityName").click()
+        time.sleep(2)
+        self.dr.find_element_by_css_selector("input#cityName").send_keys(u"北京市及下属区县")
+        time.sleep(1)
+        self.dr.find_element_by_xpath(".//*[@id='pc_table']/tbody/tr/td[1]/input").click()
+        self.dr.switch_to.default_content()
+        self.dr.find_element_by_css_selector("#_ButtonOK_0").click()
+        time.sleep(1)
+        self.dr.switch_to.alert.accept()
+        time.sleep(1)
+        self.dr.switch_to.default_content()
+        self.dr.switch_to.frame("main1")
+        time.sleep(2)
+        self.dr.switch_to.default_content()
+        self.dr.switch_to.frame("menu1")
+        self.dr.find_element_by_id("a_menuId_crmCouponsPresentConfigManager").click()
+        self.dr.switch_to.default_content()
+        self.dr.switch_to.frame("main1")
+        time.sleep(1)
+        self.dr.find_element_by_xpath("html/body/form/div/div[1]/div/a[4]").click()
+        self.dr.find_element_by_id("couponTitle").click()
+        self.dr.switch_to.default_content()
+        self.dr.switch_to.frame("main1")
+        time.sleep(1)
+        self.dr.switch_to.frame("modalDialog")
+        time.sleep(1)
+        self.dr.switch_to.frame("tree")
+        time.sleep(1)
+        self.dr.find_element_by_xpath(".//*[@id='searchbox']/table/tbody/tr/td[4]/input").send_keys(zhucesong)
+        self.dr.find_element_by_id("query_A").click()
+        self.dr.find_element_by_xpath(".//*[@id='userCouponsConfigList_table']/tbody/tr/td[1]/input").click()
+        self.dr.find_element_by_xpath("html/body/form/div[2]/div[1]/div/a[2]").click()
+        time.sleep(1)
+        self.dr.switch_to.default_content()
+        time.sleep(2)
+        self.dr.switch_to.frame("main1")
+        time.sleep(1)
+        self.dr.find_element_by_css_selector("#startDateTime").click()
+        time.sleep(2)
+        self.dr.switch_to.default_content()
+        time.sleep(1)
+        self.dr.switch_to.frame(self.dr.find_element_by_xpath(".//*[@id='_my97DP']/iframe"))
+        time.sleep(2)
+        self.dr.find_element_by_css_selector("#dpTodayInput").click()
+        time.sleep(2)
+        self.dr.switch_to.default_content()
+        time.sleep(1)
+        self.dr.switch_to.frame("main1")
+        time.sleep(1)
+        self.dr.find_element_by_css_selector("#endDateTime").click()
+        time.sleep(1)
+        self.dr.switch_to.default_content()
+        time.sleep(1)
+        self.dr.switch_to.frame(self.dr.find_element_by_xpath(".//*[@id='_my97DP']/iframe"))
+        time.sleep(1)
+        self.dr.find_element_by_xpath("html/body/div[1]/div[3]/table/tbody/tr[7]/td[6]").click()
+        time.sleep(1)
+        self.dr.switch_to.default_content()
+        time.sleep(1)
+        self.dr.switch_to.frame("main1")
+        time.sleep(1)
+        self.dr.find_element_by_id("couponNum").send_keys("1")
+        time.sleep(1)
+        self.dr.find_element_by_id("save").click()
+        time.sleep(2)
+
+        self.d.start_app(package_namesaler)
+        self.d(text=u"免费注册").click()
+        if self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/win_dialog_left_btn").wait.exists():
+            self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/win_dialog_left_btn").click()
+        elif self.d(resourceId="android:id/button1").wait.exists():
+            self.d(resourceId="android:id/button1").click()
+        else:
+            pass
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/rightbtn").click()
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_phone").set_text(phone)
+        num = self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_phone").text
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/btn_obtain_verify_code").click()
+        self.dr.switch_to.default_content()
+        self.dr.switch_to.frame("menu1")
+        self.dr.find_element_by_link_text("门店管理").click()
+        self.dr.find_element_by_css_selector("#a_menuId_listCustomerSaler").click()
+        time.sleep(2)
+        self.dr.switch_to.default_content()
+        self.dr.switch_to.frame("main1")
+        self.dr.find_element_by_name("$lk_mobile").send_keys(num)
+        self.dr.find_element_by_css_selector("#query_A").click()
+        number = self.dr.find_element_by_xpath(".//*[@id='ec_table']/tbody/tr/td[19]").text
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_verify_code").set_text(number)
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_pwd").set_text("123456")
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_pwd_again").set_text("123456")
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/rightbtn").click()
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_user_name").set_text(name)
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/rightbtn").click()
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_shop_name").set_text(salername)
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_area").click()
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/tv_areaname", text=u"马连洼街道办事处").click()
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/tv_areaname").click()
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_street").set_text(dizhi)
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_houseNum").set_text(menpai)
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_land_mark").set_text(jianzhu)
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/rightbtn").click()
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_channel").click()
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/btn_confirm").click()
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_checkstandNum").click()
+        time.sleep(2)
+        for i in range(2):
+            self.d.swipe(500, 1800, 500, 1600)
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/btn_confirm").click()
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/retail_add_img").click()
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/win_dialog_one_btn").click()
+        if self.d(resourceId="android:id/button1").wait.exists():
+            self.d(resourceId="android:id/button1").click()
+        else:
+            pass
+        self.d(resourceId="com.android.attachcamera:id/shutter_button").click()
+        self.d(resourceId="com.android.attachcamera:id/done_button").click()
+        self.d(text=u"确定").click()
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/rightbtn").click()
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/et_invite_code_view").set_text(yaoqingma)
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/rightbtn").click()
+        time.sleep(2)
+        if self.d(text=u"有权查看使用情况的应用").wait.exists():
+            self.d.keyevent("BACK")
+        else:
+            pass
+        time.sleep(1)
+        if self.d(text=u"优惠下单").wait.exists():
+            self.link.ccc("(true)创建新门店账号进入首页成功")
+        else:
+            self.link.ccc("(false)创建新门店账号进入首页失败")
+            pass
+        time.sleep(2)
+        self.d(resourceId="winretailsaler.net.winchannel.wincrm:id/component_maintab_tab_textview", text=u"我的").click()
+        self.d(text=u"优惠券").click()
+        if self.d(description=u"注册送勿").wait.exists():
+            self.link.ccc("(true)门店收到注册送的优惠券成功")
+        else:
+            self.link.ccc("(true)门店没有收到注册送的优惠券失败")
+            pass
+        time.sleep(2)
+        self.d.stop_app(package_namesaler, clear=True)
+        time.sleep(2)
+        #此代码是修改数据库的IM号
+        # self.link.database(phone)
+        self.dr.switch_to.default_content()
+        self.dr.switch_to.frame("menu1")
+        self.dr.find_element_by_id("a_menuId_mdxxgl").click()
+        self.dr.switch_to.default_content()
+        self.dr.switch_to.frame("main1")
+        time.sleep(2)
+        self.dr.find_element_by_id("mobile").send_keys(phone)
+        self.dr.find_element_by_id("query_A").click()
+        time.sleep(2)
+        self.dr.find_element_by_xpath(".//*[@id='ec_table']/tbody/tr/td[3]/center/a[2]/img").click()
+        time.sleep(2)
+        mum = self.dr.find_element_by_id("longitude")
+        zzs = mum.get_attribute("value")
+        tts = float(zzs)
+        if tts != 0.00000001:
+            self.link.ccc("(true)创建新门店账号经度上传成功")
+        else:
+            self.link.ccc("(false)创建新门店账号经度上传失败")
+        nun = self.dr.find_element_by_id("latitude")
+        lls = nun.get_attribute("value")
+        yys = float(lls)
+        if yys != 0.00000001:
+            self.link.ccc("(true)创建新门店账号纬度上传成功")
+        else:
+            self.link.ccc("(false)创建新门店账号纬度上传失败")
+        self.dr.quit()
+        self.d(text=u"ATX助手").click()
+        time.sleep(2)
+        self.d(text=u"输入法设置").click()
+        time.sleep(2)
+        self.d(resourceId="android:id/summary").click()
+        self.d(resourceId="vivo:id/radio", className="android.widget.RadioButton", instance=2).click()
+        self.d.keyevent("BACK")
+        self.d.keyevent("BACK")
+        self.d.start_app(package_namesr)
+        self.d(resourceId="winretailsr.net.winchannel.wincrm:id/component_maintab_tab_textview", text=u"我的门店").click()
+        self.d(resourceId="winretailsr.net.winchannel.wincrm:id/imageview", className="android.widget.ImageView", instance=1).click()
+        time.sleep(3)
+        self.d.keyevent("BACK")
+        time.sleep(2)
+        self.d(resourceId="winretailsr.net.winchannel.wincrm:id/imageview", className="android.widget.ImageView",
+               instance=1).click()
+        time.sleep(5)
+        for i in range(3):
+            self.d.swipe(400, 600, 600, 1900)
+        time.sleep(3)
+        self.d(resourceId="winretailsr.net.winchannel.wincrm:id/search_editview").set_text(salername)
+        time.sleep(1)
+        self.d(resourceId="winretailsr.net.winchannel.wincrm:id/search_editview").click()
+        time.sleep(2)
+        self.d.click(0.92, 0.768)
+        time.sleep(3)
+        ttp = self.d(resourceId="winretailsr.net.winchannel.wincrm:id/tv_store_name").text
+        ooo = ttp.encode("utf-8")
+        if ooo == salername:
+            self.link.ccc("(true)业代我的门店看填写也带邀请码的门店成功")
+        else:
+            self.link.ccc("(false)业代我的门店看填写也带邀请码的门店失败")
+            pass
+        self.d.keyevent("BACK")
+        self.d.keyevent("BACK")
+if __name__ == '__main__':
+    putdemo = charge()
+    putdemo.enroll(u"我恩恩送送", "14099911931", "王晴天", "呵呵单元成功", "北京市中关村清河小营乔南100", "京-55465", "五彩大厦大厦", "14088745623")

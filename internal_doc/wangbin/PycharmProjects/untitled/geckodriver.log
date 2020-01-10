@@ -1,0 +1,178 @@
+1515038819531	geckodriver	INFO	geckodriver 0.18.0
+1515038819544	geckodriver	INFO	Listening on 127.0.0.1:63809
+1515038821681	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1515038822697	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515038823427	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Parent 14968] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10072] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10072] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515038826437	Marionette	INFO	Listening on port 63831
+1515038827020	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515038827055	Marionette	DEBUG	Register listener.js for window 4294967297
+1515038827085	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515038827156	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515038827156	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515038827964	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bj.ganji.com/"
+1515038829417	Marionette	DEBUG	Received DOM event "pageshow" for "http://bj.ganji.com/"
+1515038829535	Marionette	DEBUG	Register listener.js for window 4294967303
+1515038829713	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 776"  data: no]
+Stack: _docShellToWindow@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:776:9
+_docShellsToWindows/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:800:38
+_docShellsToWindows@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:800:12
+_notifyDocShellsUpdate@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:804:19
+DebuggerProgressListener.prototype.onStateChange<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:1620:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 776, column: 0
+console.error: 
+  Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 776"  data: no]
+Stack: _docShellToWindow@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:776:9
+_docShellsToWindows/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:800:38
+_docShellsToWindows@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:800:12
+_notifyDocShellsUpdate@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:804:19
+DebuggerProgressListener.prototype.onStateChange<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:1620:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 776, column: 0
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1623"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:1623:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1623, column: 0
+console.error: 
+  Handler function DebuggerPro[Parent 14480] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10052] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10052] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4772] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4772] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1623, column: 0
+[Parent 14968] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11212] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11212] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14476] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+nManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515038988717	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Child 960] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 960] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515038990974	Marionette	INFO	Listening on port 65257
+1515038991369	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515038991407	Marionette	DEBUG	Register listener.js for window 4294967297
+1515038991454	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515038991526	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515038991526	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515038992187	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bj.ganji.com/"
+1515038993897	Marionette	DEBUG	Received DOM event "pageshow" for "http://bj.ganji.com/"
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+[Parent 1620] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1620] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8108] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8108] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3784] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3784] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+der.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515039064087	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Child 12848] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515039067649	Marionette	INFO	Listening on port 49511
+1515039068558	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515039068594	Marionette	DEBUG	Register listener.js for window 4294967297
+1515039068618	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515039068690	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515039068690	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515039070431	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bj.ganji.com/"
+1515039072099	Marionette	DEBUG	Received DOM event "pageshow" for "http://bj.ganji.com/"
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+[Parent 9116] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14348] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14348] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15084] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15084] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+sionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515039209743	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Parent 3040] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7884] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7884] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515039213374	Marionette	INFO	Listening on port 50680
+1515039214014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515039214055	Marionette	DEBUG	Register listener.js for window 4294967297
+1515039214106	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515039214188	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515039214189	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515039215531	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bj.ganji.com/"
+1515039217110	Marionette	DEBUG	Received DOM event "pageshow" for "http://bj.ganji.com/"
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+[Parent 3040] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4360] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4360] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6180] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6180] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+xtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515039305644	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Parent 15016] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14568] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14568] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515039309036	Marionette	INFO	Listening on port 51512
+1515039310032	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515039310068	Marionette	DEBUG	Register listener.js for window 6442450945
+1515039310128	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515039310215	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515039310215	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515039311214	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bj.ganji.com/"
+1515039312930	Marionette	DEBUG	Received DOM event "pageshow" for "http://bj.ganji.com/"
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+[Child 15376] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15376] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15016] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15496] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15496] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515039396498	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Parent 10452] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10844] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515039399270	Marionette	INFO	Listening on port 52318
+1515039399389	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515039399425	Marionette	DEBUG	Register listener.js for window 4294967297
+1515039399542	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515039399618	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515039399618	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515039400744	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bj.ganji.com/"
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+JavaScript warning: http://stacdn201.ganjistatic1.com/public/tool/webim_v3/js/webim.cmb.__1514974920__.js, line 1: unreachable code after return statement
+1515039402894	Marionette	DEBUG	Received DOM event "pageshow" for "http://bj.ganji.com/"
+[Child 6164] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6164] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15728] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15728] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping

@@ -1,0 +1,406 @@
+1514284162841	geckodriver	INFO	geckodriver 0.18.0
+1514284162848	geckodriver	INFO	Listening on 127.0.0.1:50871
+1514284164883	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1514284165380	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1514284165950	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Child 5332] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5332] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1514284167952	Marionette	INFO	Listening on port 50890
+1514284168014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514284168050	Marionette	DEBUG	Register listener.js for window 4294967297
+1514284168073	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514284168920	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514284168921	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514284168928	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://sahitest.com/demo/php/fileUpload.htm"
+1514284168941	Marionette	DEBUG	Received DOM event "pageshow" for "http://sahitest.com/demo/php/fileUpload.htm"
+1514284170061	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 9636] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9636] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1514284201110	geckodriver	INFO	geckodriver 0.18.0
+1514284201116	geckodriver	INFO	Listening on 127.0.0.1:51165
+1514284203180	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1514284203388	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1514284204027	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Parent 4292] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10264] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10264] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1514284206271	Marionette	INFO	Listening on port 51184
+1514284206318	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514284206353	Marionette	DEBUG	Register listener.js for window 4294967297
+1514284206378	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514284206767	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514284206767	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514284206774	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://sahitest.com/demo/php/fileUpload.htm"
+1514284206788	Marionette	DEBUG	Received DOM event "pageshow" for "http://sahitest.com/demo/php/fileUpload.htm"
+1514284207757	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1514284209114	Marionette	INFO	New connections will no longer be accepted
+[Child 9428] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9428] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514284836898	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < updateBlocklistState@XPIProvider.jsm:5027:7 < updateBlocklistState@XPIProvider.jsm:5457:5 < _blocklistUpdated/<@nsBlocklistService.js:1344:11 < safeCall@AddonManager.jsm:193:5 < makeSafe/<@AddonManager.jsm:208:25 < observe@AsyncShutdown.jsm:534:9 < GeckoDriver.prototype.quit@driver.js:3182:3
+1514284836904	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < updateBlocklistState@XPIProvider.jsm:5027:7 < updateBlocklistState@XPIProvider.jsm:5457:5 < _blocklistUpdated/<@nsBlocklistService.js:1344:11 < safeCall@AddonManager.jsm:193:5 < makeSafe/<@AddonManager.jsm:208:25 < observe@AsyncShutdown.jsm:534:9 < GeckoDriver.prototype.quit@driver.js:3182:3
+1514284836906	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < updateBlocklistState@XPIProvider.jsm:5027:7 < updateBlocklistState@XPIProvider.jsm:5457:5 < _blocklistUpdated/<@nsBlocklistService.js:1344:11 < safeCall@AddonManager.jsm:193:5 < makeSafe/<@AddonManager.jsm:208:25 < observe@AsyncShutdown.jsm:534:9 < GeckoDriver.prototype.quit@driver.js:3182:3
+1514284836908	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < updateBlocklistState@XPIProvider.jsm:5027:7 < updateBlocklistState@XPIProvider.jsm:5457:5 < _blocklistUpdated/<@nsBlocklistService.js:1344:11 < safeCall@AddonManager.jsm:193:5 < makeSafe/<@AddonManager.jsm:208:25 < observe@AsyncShutdown.jsm:534:9 < GeckoDriver.prototype.quit@driver.js:3182:3
+1514284836910	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < updateBlocklistState@XPIProvider.jsm:5027:7 < updateBlocklistState@XPIProvider.jsm:5457:5 < _blocklistUpdated/<@nsBlocklistService.js:1344:11 < safeCall@AddonManager.jsm:193:5 < makeSafe/<@AddonManager.jsm:208:25 < observe@AsyncShutdown.jsm:534:9 < GeckoDriver.prototype.quit@driver.js:3182:3
+1514284836914	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < updateBlocklistState@XPIProvider.jsm:5027:7 < updateBlocklistState@XPIProvider.jsm:5457:5 < _blocklistUpdated/<@nsBlocklistService.js:1344:11 < safeCall@AddonManager.jsm:193:5 < makeSafe/<@AddonManager.jsm:208:25 < observe@AsyncShutdown.jsm:534:9 < GeckoDriver.prototype.quit@driver.js:3182:3
+1514284836915	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < updateBlocklistState@XPIProvider.jsm:5027:7 < updateBlocklistState@XPIProvider.jsm:5457:5 < _blocklistUpdated/<@nsBlocklistService.js:1344:11 < safeCall@AddonManager.jsm:193:5 < makeSafe/<@AddonManager.jsm:208:25 < observe@AsyncShutdown.jsm:534:9 < GeckoDriver.prototype.quit@driver.js:3182:3
+1514284836917	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < updateBlocklistState@XPIProvider.jsm:5027:7 < updateBlocklistState@XPIProvider.jsm:5457:5 < _blocklistUpdated/<@nsBlocklistService.js:1344:11 < safeCall@AddonManager.jsm:193:5 < makeSafe/<@AddonManager.jsm:208:25 < observe@AsyncShutdown.jsm:534:9 < GeckoDriver.prototype.quit@driver.js:3182:3
+1514284836918	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < updateBlocklistState@XPIProvider.jsm:5027:7 < updateBlocklistState@XPIProvider.jsm:5457:5 < _blocklistUpdated/<@nsBlocklistService.js:1344:11 < safeCall@AddonManager.jsm:193:5 < makeSafe/<@AddonManager.jsm:208:25 < observe@AsyncShutdown.jsm:534:9 < GeckoDriver.prototype.quit@driver.js:3182:3
+1514284836920	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < updateBlocklistState@XPIProvider.jsm:5027:7 < updateBlocklistState@XPIProvider.jsm:5457:5 < _blocklistUpdated/<@nsBlocklistService.js:1344:11 < safeCall@AddonManager.jsm:193:5 < makeSafe/<@AddonManager.jsm:208:25 < observe@AsyncShutdown.jsm:534:9 < GeckoDriver.prototype.quit@driver.js:3182:3
+1514284836922	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < updateBlocklistState@XPIProvider.jsm:5027:7 < updateBlocklistState@XPIProvider.jsm:5457:5 < _blocklistUpdated/<@nsBlocklistService.js:1344:11 < safeCall@AddonManager.jsm:193:5 < makeSafe/<@AddonManager.jsm:208:25 < observe@AsyncShutdown.jsm:534:9 < GeckoDriver.prototype.quit@driver.js:3182:3
+1514284836924	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < updateBlocklistState@XPIProvider.jsm:5027:7 < updateBlocklistState@XPIProvider.jsm:5457:5 < _blocklistUpdated/<@nsBlocklistService.js:1344:11 < safeCall@AddonManager.jsm:193:5 < makeSafe/<@AddonManager.jsm:208:25 < observe@AsyncShutdown.jsm:534:9 < GeckoDriver.prototype.quit@driver.js:3182:3
+1514284954062	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < verifySignatures@XPIProvider.jsm:2664:7 < observe@AsyncShutdown.jsm:534:9 < GeckoDriver.prototype.quit@driver.js:3182:3
+1514425421455	geckodriver	INFO	geckodriver 0.18.0
+1514425421462	geckodriver	INFO	Listening on 127.0.0.1:64542
+1514425423493	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1514425424046	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1514425424674	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Parent 7344] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9900] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9900] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514425427233	Marionette	INFO	Listening on port 64554
+1514425427651	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514425427686	Marionette	DEBUG	Register listener.js for window 6442450945
+1514425427711	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514425428075	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514425428076	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514425428081	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://sahitest.com/demo/php/fileUpload.htm"
+1514425428088	Marionette	DEBUG	Received DOM event "pageshow" for "http://sahitest.com/demo/php/fileUpload.htm"
+1514425429381	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1514425430533	Marionette	INFO	New connections will no longer be accepted
+1515121135442	geckodriver	INFO	geckodriver 0.18.0
+1515121135462	geckodriver	INFO	Listening on 127.0.0.1:62846
+1515121137559	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1515121138306	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515121139070	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Child 11516] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11516] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515121142400	Marionette	INFO	Listening on port 62854
+1515121142890	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515121142927	Marionette	DEBUG	Register listener.js for window 6442450945
+1515121142975	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515121143031	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515121143031	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/, line 1550: ReferenceError: $ is not defined
+1515121144034	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://retail.wincrm.net:8203/"
+1515121144378	Marionette	DEBUG	Received DOM event "pageshow" for "http://retail.wincrm.net:8203/"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 11988] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11988] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9348] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515121265588	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Child 11680] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11680] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515121268090	Marionette	INFO	Listening on port 63066
+1515121268218	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515121268253	Marionette	DEBUG	Register listener.js for window 4294967297
+1515121268279	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515121268781	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515121268781	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/, line 1550: ReferenceError: $ is not defined
+1515121269601	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://retail.wincrm.net:8203/"
+1515121270112	Marionette	DEBUG	Received DOM event "pageshow" for "http://retail.wincrm.net:8203/"
+[Child 10064] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11416] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1515141915662	geckodriver	INFO	geckodriver 0.18.0
+1515141915685	geckodriver	INFO	Listening on 127.0.0.1:65304
+1515141917851	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1515141918900	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515141919696	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Parent 9668] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515141923894	Marionette	INFO	Listening on port 65314
+1515141924160	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515141924216	Marionette	DEBUG	Register listener.js for window 6442450945
+1515141924256	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515141924317	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515141924317	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/, line 1550: ReferenceError: $ is not defined
+1515141925156	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://retail.wincrm.net:8203/"
+1515141925298	Marionette	DEBUG	Received DOM event "pageshow" for "http://retail.wincrm.net:8203/"
+[Parent 9668] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win1515142052975	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1515142053238	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515142054092	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Child 7712] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400FC,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/extension-process-script.js, line 339: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515142056255	Marionette	INFO	Listening on port 49223
+1515142056592	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515142056627	Marionette	DEBUG	Register listener.js for window 4294967297
+1515142056652	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515142056706	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515142056706	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/, line 1550: ReferenceError: $ is not defined
+1515142058712	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://retail.wincrm.net:8203/"
+1515142059049	Marionette	DEBUG	Received DOM event "pageshow" for "http://retail.wincrm.net:8203/"
+[Parent 4192] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 340] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10604] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+RROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515142112642	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Child 7844] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7844] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515142115324	Marionette	INFO	Listening on port 49382
+1515142115383	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515142115421	Marionette	DEBUG	Register listener.js for window 6442450945
+1515142115453	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515142115511	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515142115511	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/, line 1550: ReferenceError: $ is not defined
+1515142116413	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://retail.wincrm.net:8203/"
+1515142116458	Marionette	DEBUG	Received DOM event "pageshow" for "http://retail.wincrm.net:8203/"
+[Parent 9972] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9972] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11944] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6480] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+S frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515142353072	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515142356432	Marionette	INFO	Listening on port 49983
+1515142357338	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515142357383	Marionette	DEBUG	Register listener.js for window 4294967297
+1515142357405	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515142357463	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515142357464	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/, line 1550: ReferenceError: $ is not defined
+1515142358440	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://retail.wincrm.net:8203/"
+1515142358536	Marionette	DEBUG	Received DOM event "pageshow" for "http://retail.wincrm.net:8203/"
+[Parent 11920] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5628] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5628] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6484] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6484] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+tensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515142436189	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Parent 7624] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3132] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3132] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515142439276	Marionette	INFO	Listening on port 50202
+1515142439666	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515142439709	Marionette	DEBUG	Register listener.js for window 6442450945
+1515142439730	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515142439864	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515142439864	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/, line 1550: ReferenceError: $ is not defined
+1515142440916	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://retail.wincrm.net:8203/"
+1515142441721	Marionette	DEBUG	Received DOM event "pageshow" for "http://retail.wincrm.net:8203/"
+[Parent 7624] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win1515142490818	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1515142491057	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515142491931	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Child 7748] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7748] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515142494417	Marionette	INFO	Listening on port 50379
+1515142494516	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515142494552	Marionette	DEBUG	Register listener.js for window 4294967297
+1515142494571	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515142494622	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515142494622	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/, line 1550: ReferenceError: $ is not defined
+1515142495822	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://retail.wincrm.net:8203/"
+1515142496247	Marionette	DEBUG	Received DOM event "pageshow" for "http://retail.wincrm.net:8203/"
+[Parent 6296] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11920] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11920] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10384] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10384] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+sionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515142513181	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Child 3124] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3124] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515142515598	Marionette	INFO	Listening on port 50507
+1515142515625	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515142515662	Marionette	DEBUG	Register listener.js for window 4294967297
+1515142515696	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515142515832	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515142515832	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/, line 1550: ReferenceError: $ is not defined
+1515142517429	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://retail.wincrm.net:8203/"
+1515142517460	Marionette	DEBUG	Received DOM event "pageshow" for "http://retail.wincrm.net:8203/"
+[Parent 9316] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7604] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7604] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9800] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515480567674	geckodriver	INFO	geckodriver 0.18.0
+1515480567697	geckodriver	INFO	Listening on 127.0.0.1:54050
+1515480569738	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1515480569969	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515480570588	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Parent 10260] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9608] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9608] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515480572647	Marionette	INFO	Listening on port 54069
+1515480572863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515480572903	Marionette	DEBUG	Register listener.js for window 4294967297
+1515480572930	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515480572981	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515480572981	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/, line 1550: ReferenceError: $ is not defined
+1515480574092	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://retail.wincrm.net:8203/"
+1515480574112	Marionette	DEBUG	Received DOM event "pageshow" for "http://retail.wincrm.net:8203/"
+1515480574697	Marionette	DEBUG	Received DOM event "beforeunload" for "http://retail.wincrm.net:8203/"
+1515480575454	Marionette	DEBUG	Received DOM event "pagehide" for "http://retail.wincrm.net:8203/"
+1515480575455	Marionette	DEBUG	Received DOM event "unload" for "http://retail.wincrm.net:8203/"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/login.action;jsessionid=5FBFCBFBFC02A41601941E3F870C5266, line 1550: ReferenceError: $ is not defined
+[Child 8756] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8756] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3864] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3864] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515480718750	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Child 2860] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515480720979	Marionette	INFO	Listening on port 55029
+1515480721349	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515480721386	Marionette	DEBUG	Register listener.js for window 4294967297
+1515480721421	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515480721473	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515480721473	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/, line 1550: ReferenceError: $ is not defined
+1515480722330	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://retail.wincrm.net:8203/"
+1515480722364	Marionette	DEBUG	Received DOM event "pageshow" for "http://retail.wincrm.net:8203/"
+1515481412669	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 5664] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5512] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5512] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1980] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515480985935	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Child 10868] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10868] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515480988733	Marionette	INFO	Listening on port 56847
+1515480989124	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515480989177	Marionette	DEBUG	Register listener.js for window 4294967297
+1515480989204	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515480989259	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515480989259	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/, line 1550: ReferenceError: $ is not defined
+1515480990213	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://retail.wincrm.net:8203/"
+1515480990259	Marionette	DEBUG	Received DOM event "pageshow" for "http://retail.wincrm.net:8203/"
+[Parent 12180] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5356] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5356] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6496] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+1515481219271	Marionette	INFO	Enabled via --marionette
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32 v=
+[Parent 11040] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4252] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4252] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515481221524	Marionette	INFO	Listening on port 58703
+1515481221578	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515481221614	Marionette	DEBUG	Register listener.js for window 4294967297
+1515481221640	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515481221696	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515481221697	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/, line 1550: ReferenceError: $ is not defined
+1515481222863	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://retail.wincrm.net:8203/"
+1515481223364	Marionette	DEBUG	Received DOM event "pageshow" for "http://retail.wincrm.net:8203/"
+1515481223847	Marionette	DEBUG	Received DOM event "beforeunload" for "http://retail.wincrm.net:8203/"
+1515481224382	Marionette	DEBUG	Received DOM event "pagehide" for "http://retail.wincrm.net:8203/"
+1515481224383	Marionette	DEBUG	Received DOM event "unload" for "http://retail.wincrm.net:8203/"
+JavaScript error: http://retail.wincrm.net:8203/widgets/jquery/jquery-light-combobox/jquery.combobox.js, line 253: ReferenceError: jQuery is not defined
+JavaScript error: http://retail.wincrm.net:8203/scripts/sunTo%20ry/jquery-1.8.3.js, line 5: SyntaxError: expected expression, got '<'
+JavaScript error: http://retail.wincrm.net:8203/login.action;jsessionid=4FBFFEA0212078BE3AD85DEFA047CC63, line 1550: ReferenceError: $ is not defined
+[Parent 11040] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11040] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11956] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11956] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12312] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12312] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
